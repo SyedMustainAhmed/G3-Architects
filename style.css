@@ -313,3 +313,14 @@ color: #131313;
     margin-left: 10%;
     margin-right: 10%;
 }
+/* media query */
+@media screen and (max-width:688px){
+    .container{
+        width: 100%;
+        }
+        .nav-container,.header-content,.feature-imgs,.feature-text,.architect-text,.architect-text-box{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+          
+        }
+}
