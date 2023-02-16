@@ -1,6 +1,9 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -24,6 +27,20 @@ header{
     font-size: 19px;
     text-decoration: none;
 }
+.header-all-content,.feature-text-all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    background-color: #FF900E;
+    color: #FFF4E7;
+    border: 1px solid #FF900E;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
 .banner-img{
     margin-left: 10%;
     margin-right: 5%;
@@ -34,8 +51,52 @@ header{
 flex-direction: column;
 margin-right: 0%;
 padding-bottom: 3%;
+margin-top: 5%;
 } 
+/*   <!-- feature section --> */
+.features{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 0%;
+}
 
+
+.feature-img img{
+    width: 200px;
+    height: 200px;
+}
+.feature-imgs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    margin-right: 5%;
+}
+.half-width{
+    width: 50%;
+}
+/* architect-section */
+.architect-text h1{
+border-left: 5px solid #FF900E;
+padding: 15px;
+}
+.architect-text{
+margin-right: 5%;
+}
+.architect-part{
+    display: flex;
+    margin-right: 0%;
+    margin-left: 10%;
+}
+.architect-img img{
+    height: 100%;
+    width: 80%;
+}
+.architect-text-box{
+    padding: 4%;
+    border: 1px solid #FFF4E7;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
 /* some part styles */
 .abilities{
     display: flex;
