@@ -133,14 +133,35 @@ margin-top: 5%;
 border-left: 5px solid #FF900E;
 padding: 15px;
 }
+.feature-btn {
+    position: absolute;
+    bottom: 5px;
+    left: 47%;
+    background-color: #ff9026;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .feature-1 {
+    font-weight: 700;
+    font-size: 65px;
+    display: block;
+  }
+  
+  .feature-2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
 .architect-text{
-margin-right: 5%;
+margin-right: 10%;
 }
 .architect-part{
     display: flex;
     margin-right: 0%;
     margin-left: 10%;
     margin-top: 10%;
+    position: relative;
 }
 .architect-part .architect-text h1{
     font-weight: 700;
@@ -151,6 +172,7 @@ margin-right: 5%;
     font-weight: 400;
 font-size: 16px;
 color: #727272;
+margin-top: 3%;
 }
 .architect-img img{
     height: 100%;
@@ -161,13 +183,13 @@ color: #727272;
     border: 1px solid #FFF4E7;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
+    margin-top: 3%;
 }
 /* some part styles */
 .abilities{
     display: flex;
     justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+  
 }
 .ability{
     border: 1px solid #FF900E;
@@ -177,7 +199,12 @@ color: #727272;
   align-items: center;
   height: 200px;
   width: 200px;
+  transition: width 2s, height 2s , 1s;
   
+}
+.ability:hover{
+    height: 250px;
+    width: 250px;
 }
 .ability img{
     width: 45px;
@@ -203,27 +230,74 @@ color: #727272;
 }
 
 
-
+.some-fact{
+    margin: 10%;
+}
+.some-fact h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: #131313;
+    
+}
+.some-fact p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: left;
+    color: #727272;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
 
 
 /* extra part styles */
-
-
-
+.extra-part-parent{
+    margin: 2%;
+}
+.extra-part-title h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #131313; 
+}
+.extra-part-title p{
+    font-weight: 400;
+    font-size: 15px;
+   text-align: center;
+    color: #727272;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
 
 
 /* sponspors part style */
-
+.Sponspors-parent h3{
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+color: #131313; 
+}
+.Sponspors-parent p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+  color: #727272;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
 .top-company{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom:  5% ;
 }
 
 
 /* footer style */
 .footer{
+    
     display: flex;
     flex-direction: column;
   justify-content: center;
