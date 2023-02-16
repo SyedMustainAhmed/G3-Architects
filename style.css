@@ -12,9 +12,15 @@ body{
 header{
     background: rgba(255, 144, 14, 0.1);
 }
+.logo-title{
+   color:  #131313;
+   font-weight: 700;
+font-size: 25px;
+}
 .nav-container{
     display: flex;
     justify-content:space-around;
+    padding-top: 2%;
    
 }
 .items{
@@ -26,19 +32,41 @@ header{
     padding: 10px;
     font-size: 19px;
     text-decoration: none;
+    font-weight: 500;
+   font-size: 18px;
+  color: #424242;
 }
 .header-all-content,.feature-text-all{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-a{
+.header-all-content{
+    margin-top: 5%;
+}
+.header-all-content h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #131313;
+}
+.header-all-content p{
+    font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   color:  #727272;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+
+.header-all-content a{
     text-decoration: none;
     background-color: #FF900E;
     color: #FFF4E7;
     border: 1px solid #FF900E;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-top: 1%;
 
 }
 .banner-img{
@@ -58,9 +86,35 @@ margin-top: 5%;
     display: flex;
     margin-left: 10%;
     margin-right: 0%;
+    margin-top: 6%;
 }
 
+/* .feature-text .feature-text-all{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+} */
+.feature-text-all h2{
+    font-weight: 600;
+    font-size: 45px;
+    padding-left: 4%;
 
+}
+.feature-text-all p{
+    font-weight: 400;
+   font-size: 16px;
+ color: #727272;
+ margin-top: 4%;
+}
+.feature-text-all a{
+    text-decoration: none;
+    background-color: #FF900E;
+    color: #FFF4E7;
+    border: 1px solid #FF900E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 3%; 
+}
 .feature-img img{
     width: 200px;
     height: 200px;
@@ -86,6 +140,17 @@ margin-right: 5%;
     display: flex;
     margin-right: 0%;
     margin-left: 10%;
+    margin-top: 10%;
+}
+.architect-part .architect-text h1{
+    font-weight: 700;
+   font-size: 45px;
+    color: #131313;;
+}
+.architect-part .architect-text p{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
 }
 .architect-img img{
     height: 100%;
