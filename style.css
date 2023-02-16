@@ -1,0 +1,54 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sponspors part style */
+
+.top-company{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+/* footer style */
+.footer{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+    width: 60%;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#FFF4E7 ;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
